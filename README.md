@@ -49,3 +49,23 @@ Os testes foram realizados com uma lista de 100 pessoas, repetidos 5 vezes para 
 | Insertion Sort | 2369        | 2274   | 0.025            |
 | Quick Sort     | 1204        | 866    | 0.011            |
 
+
+Análise dos Resultados
+
+
+Bubble Sort demonstrou o pior desempenho, com o maior número de comparações (4950) e um tempo médio significativamente mais alto (0.065 ms). Isso é totalmente esperado para um algoritmo de complexidade O(N 
+2
+ ), que se torna ineficiente rapidamente com o aumento do volume de dados.
+
+O Insertion Sort teve um desempenho consideravelmente melhor que o Bubble Sort, realizando quase metade das comparações (2369) e um tempo médio de 0.025 ms. Apesar de também ter uma complexidade O(N 
+2
+ ) no pior caso, ele pode ser mais eficiente para arrays parcialmente ordenados ou com entradas menores, como visto aqui em comparação com o Bubble Sort.
+
+O Quick Sort se destacou como o mais eficiente, com o menor número de comparações (1204) e trocas (866), resultando no menor tempo médio (0.011 ms). Este resultado sublinha a superioridade dos algoritmos O(N
+logN) para conjuntos de dados maiores. A estratégia de "divisão e conquista" permite que ele processe os dados de forma muito mais rápida.
+
+Em resumo, esses resultados práticos confirmam as análises teóricas de complexidade: à medida que o tamanho da entrada aumenta, algoritmos com complexidade de tempo O(N
+logN) (como o Quick Sort) superam drasticamente aqueles com complexidade O(N 
+2
+ ) (como o Bubble Sort e Insertion Sort no pior/caso médio).
+
