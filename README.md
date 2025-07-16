@@ -4,7 +4,7 @@ Este projeto implementa três algoritmos de ordenação clássicos em linguagem 
 
 ---
 
-## 📌 Algoritmos Utilizados
+##  Algoritmos Utilizados
 
 ### 1. Bubble Sort
 
@@ -29,7 +29,7 @@ Quick Sort é um algoritmo eficiente de divisão e conquista. Ele seleciona um p
 
 ---
 
-## ⏱️ Complexidade dos Algoritmos
+## Complexidade dos Algoritmos
 
 | Algoritmo      | Melhor Caso | Médio Caso  | Pior Caso   | Espaço Auxiliar |
 |----------------|-------------|-------------|-------------|------------------|
@@ -39,7 +39,7 @@ Quick Sort é um algoritmo eficiente de divisão e conquista. Ele seleciona um p
 
 ---
 
-## 📊 Resultados Obtidos
+## Resultados Obtidos
 
 Os testes foram realizados com uma lista de 90 pessoas, repetidos 5 vezes para calcular o tempo médio de execução.
 
