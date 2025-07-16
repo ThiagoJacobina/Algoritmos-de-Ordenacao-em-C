@@ -41,7 +41,7 @@ Quick Sort é um algoritmo eficiente de divisão e conquista. Ele seleciona um p
 
 ## 📊 Resultados Obtidos
 
-Os testes foram realizados com uma lista de 100 pessoas, repetidos 5 vezes para calcular o tempo médio de execução.
+Os testes foram realizados com uma lista de 90 pessoas, repetidos 5 vezes para calcular o tempo médio de execução.
 
 | Algoritmo      | Comparações | Trocas | Tempo Médio (ms) |
 |----------------|-------------|--------|------------------|
